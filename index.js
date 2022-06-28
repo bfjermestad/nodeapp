@@ -24,7 +24,8 @@ const server = http.createServer((request, response) => {
     res.writeHead(200, {'Content-Type': 'image/jpeg'});
     res.end(data); // Send the file data to the browser.
 });
-
+}
+)
 const port = process.env.PORT || 1337;
 server.listen(port);
 
